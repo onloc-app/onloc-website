@@ -98,6 +98,7 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 16px;
+  margin: 150px 0 100px;
 }
 
 .description h2,
@@ -119,6 +120,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 16px;
 }
 
 .description-actions a:nth-child(1) {
