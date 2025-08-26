@@ -44,7 +44,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  position: sticky;
+  position: relative;
   top: 16px;
   height: 56px;
 }
@@ -89,9 +89,7 @@ body {
 
 .content {
   position: relative;
-  top: 100px;
-  margin: 0 auto;
-  height: 80%;
+  margin: 64px auto;
   width: 60%;
 }
 
@@ -105,6 +103,15 @@ body {
 .description h2,
 .description p {
   margin: 0;
+}
+
+.description h2 {
+  font-size: 40pt;
+  font-family: Nunito;
+}
+
+.description p {
+  font-size: 18pt;
 }
 
 .description-actions {
@@ -137,4 +144,30 @@ body {
 
 .screenshots img {
   width: 100%;
+}
+
+.downloads {
+  text-align: center;
+}
+
+.downloads h2 {
+  font-family: Nunito;
+  font-size: 40pt;
+}
+
+.sources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sources img {
+  height: 80px;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 16px 0;
 }
