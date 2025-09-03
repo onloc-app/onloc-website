@@ -9,7 +9,7 @@
     <title>Onloc</title>
   </head>
   <body>
-    <div class="cursor"></div>
+    <div class="cursor" style="display: none"></div>
     <div class="header-bar">
       <div class="title-box">
         <img src="./assets/images/foreground.svg" alt="Onloc's logo" />
@@ -68,10 +68,15 @@
       const cursor = document.querySelector(".cursor");
       let x = 0,
         y = 0;
+      let visible = false;
 
       document.addEventListener("mousemove", (e) => {
         x = e.clientX;
         y = e.clientY;
+        if (!visible) {
+          cursor.style.display = "block";
+          visible = true;
+        }
       });
 
       function animate() {
