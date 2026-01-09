@@ -1,175 +1,176 @@
 @font-face {
-  font-family: Outfit;
-  src: url("./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf");
+    font-family: Outfit;
+    src: url("./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: Nunito;
-  src: url("./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+    font-family: Nunito;
+    src: url("./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf");
 }
 
 * {
-  font-family: Outfit;
-  color: white;
+    font-family: Outfit;
+    color: white;
 }
 
 *::selection {
-  background-color: #9768ff;
+    background-color: #9768ff;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: #232325;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #232325;
 }
 
 .cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: #9768ff;
-  filter: blur(40px);
-  pointer-events: none;
-  transform: translate(-50%, -50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #9768ff;
+    filter: blur(40px);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
 }
 
 .header-bar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  position: relative;
-  top: 16px;
-  height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    top: 16px;
+    height: 56px;
 }
 
 .header-bar div {
-  background-color: #fff3;
-  border: 1px solid white;
-  box-shadow: 0 0 10px #fff6;
-  backdrop-filter: blur(10px);
-  border-radius: 9999px;
-  height: inherit;
+    background-color: #fff3;
+    border: 1px solid white;
+    box-shadow: 0 0 10px #fff6;
+    backdrop-filter: blur(10px);
+    border-radius: 9999px;
+    height: inherit;
 }
 
 .title-box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 16px;
 }
 
 .title-box img {
-  height: 100%;
+    height: 100%;
 }
 
 .title-box h1 {
-  color: white;
-  font-family: Nunito;
-  font-size: 32pt;
+    color: white;
+    font-family: Nunito;
+    font-size: 32pt;
 }
 
 .github-box a {
-  width: fit-content;
+    width: fit-content;
 }
 
 .github-box a svg {
-  height: 80%;
-  color: white;
-  fill: white;
-  margin: 6px;
+    height: 80%;
+    color: white;
+    fill: white;
+    margin: 6px;
 }
 
 .content {
-  position: relative;
-  margin: 64px auto;
-  width: 60%;
+    position: relative;
+    margin: 64px auto;
+    width: 60%;
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 16px;
-  margin: 150px 0 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin: 150px 0 100px;
 }
 
 .description h2,
 .description p {
-  margin: 0;
+    margin: 0;
 }
 
 .description h2 {
-  font-size: 40pt;
-  font-family: Nunito;
+    font-size: 40pt;
+    font-family: Nunito;
 }
 
 .description p {
-  font-size: 18pt;
+    font-size: 18pt;
 }
 
 .description-actions {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
 }
 
 .description-actions a:nth-child(1) {
-  display: block;
-  padding: 8px 32px;
-  width: fit-content;
-  font-size: 20pt;
-  background-color: #9768ff22;
-  border: 2px solid #9768ff;
-  border-radius: 9999px;
-  text-decoration: none;
-  transition: all 0.1s ease;
+    display: block;
+    padding: 8px 32px;
+    width: fit-content;
+    font-size: 20pt;
+    background-color: #9768ff22;
+    border: 2px solid #9768ff;
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: all 0.1s ease;
 }
 
 .description-actions a:nth-child(1):hover {
-  background-color: #9768ff;
-  box-shadow: 0 0 10px #9768ff;
+    background-color: #9768ff;
+    box-shadow: 0 0 10px #9768ff;
 }
 
 .screenshots {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .screenshots img {
-  width: 100%;
+    width: 100%;
 }
 
 .downloads {
-  text-align: center;
+    text-align: center;
 }
 
 .downloads h2 {
-  font-family: Nunito;
-  font-size: 40pt;
+    font-family: Nunito;
+    font-size: 40pt;
 }
 
 .sources {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 .sources img {
-  height: 80px;
+    height: 70px;
 }
 
 footer {
-  background-color: #111;
-  text-align: center;
-  padding: 16px 0;
+    background-color: #111;
+    text-align: center;
+    padding: 16px 0;
 }
