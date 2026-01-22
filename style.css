@@ -158,11 +158,11 @@ body {
 }
 
 .sources {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    display: flexbox;
+}
+
+.sources * {
+    text-decoration: none;
 }
 
 .sources img {
