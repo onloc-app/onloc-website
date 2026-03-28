@@ -1,0 +1,56 @@
+# Installation
+
+Only two installation methods are currently available to install Onloc. Either with [Docker](https://www.docker.com/) or [Podman](https://podman.io/). Both methods use the
+Onloc images hosted on [Docker Hub](https://hub.docker.com/u/calvicii/).
+
+## Docker
+
+:::info
+  Before proceeding, you need to [install Docker](https://docs.docker.com/engine/install/).
+:::
+
+1. Create a new directory.
+
+```
+mkdir ./onloc-app
+cd ./onloc-app
+```
+
+2. Install the necessary files from the latest release.
+
+```
+curl -L -O https://github.com/onloc-app/onloc-deployment/releases/latest/download/docker-compose.yml
+curl -L -O https://github.com/onloc-app/onloc-deployment/releases/latest/download/Caddyfile
+```
+
+3. Start the containers.
+
+```
+docker compose pull && docker compose up -d
+```
+
+## Podman
+
+:::info
+  Before proceeding, you need to [install Podman](https://podman.io/docs/installation/).
+:::
+
+1. Create a new directory.
+
+```
+mkdir ./onloc-app
+cd ./onloc-app
+```
+
+2. Install the necessary files from the latest release.
+
+```
+curl -L -O https://github.com/onloc-app/onloc-deployment/releases/latest/download/docker-compose.yml
+curl -L -O https://github.com/onloc-app/onloc-deployment/releases/latest/download/Caddyfile
+```
+
+3. Start the containers.
+
+```
+podman compose pull && podman compose up -d
+```

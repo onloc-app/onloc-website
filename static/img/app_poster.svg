@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="800"
+   viewBox="0 0 264.58333 211.66667"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="app_poster.svg"
+   inkscape:export-filename="app_poster.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0333895"
+     inkscape:cx="309.66059"
+     inkscape:cy="359.98043"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#999999;stroke-width:5.58357;stroke-linecap:round;stroke-dasharray:22.3343, 11.1671, 5.58357, 11.1671;paint-order:stroke fill markers"
+       id="rect1"
+       width="91.660347"
+       height="168.47069"
+       x="86.461494"
+       y="21.59799"
+       ry="11.326756"
+       rx="11.521534"
+       inkscape:label="rectApp2" />
+    <rect
+       style="fill:#666666;stroke-width:5.30749;stroke-linecap:round;stroke-dasharray:21.2301, 10.6149, 5.30749, 10.6149;paint-order:stroke fill markers"
+       id="rect2"
+       width="86.539658"
+       height="161.23019"
+       x="89.021835"
+       y="24.132603"
+       ry="11.663106"
+       rx="11.170053"
+       inkscape:label="rectApp1" />
+    <circle
+       style="fill:#4d4d4d;stroke-width:5.69625;stroke-linecap:round;stroke-dasharray:22.7849, 11.3924, 5.69625, 11.3924;paint-order:stroke fill markers"
+       id="path2"
+       cx="132.29166"
+       cy="29.924749"
+       r="2.9999974" />
+    <path
+       style="fill:none;stroke:#bb9bff;stroke-width:2.73988;stroke-linecap:round;stroke-dasharray:2.73988, 5.47977;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 132.29168,153.19012 -2e-5,-90.803577"
+       id="path4" />
+    <circle
+       style="fill:#bb9bff;stroke-width:4.38758542;stroke-linecap:round;stroke-dasharray:none;paint-order:stroke fill markers;fill-opacity:1;stroke:#b6b6b6;stroke-opacity:1;stroke-dashoffset:0"
+       id="path3"
+       cx="132.29166"
+       cy="62.424545"
+       r="9.921875" />
+    <circle
+       style="fill:#bb9bff;fill-opacity:1;stroke-width:4.38758542;stroke-linecap:round;stroke-dasharray:none;paint-order:stroke fill markers;stroke:#b5b5b5;stroke-opacity:1;stroke-dashoffset:0"
+       id="circle3"
+       cx="132.29167"
+       cy="154.57581"
+       r="9.921875" />
+  </g>
+</svg>

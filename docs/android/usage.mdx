@@ -1,0 +1,161 @@
+import ThemedImage from "@theme/ThemedImage";
+
+# Usage
+
+## Login
+
+To start using Onloc, assuming you have a server up and running (if not, check out the [self-host](/docs/category/self-host/) section),
+you have to log in to the instance of your choice. Enter the server's URL and your credentials into their corresponding fields.
+
+<ThemedImage
+  alt="Login screen"
+  sources={{
+    light: "/img/android/light/login.png",
+    dark: "/img/android/dark/login.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+## Main Screen
+
+Welcome to Onloc! This is the main screen. It provides you with all of your
+devices' locations, including friends who have shared their location with you.
+
+<ThemedImage
+  alt="Main screen"
+  sources={{
+    light: "/img/android/light/main.png",
+    dark: "/img/android/dark/main.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+### Actions
+
+Here, you can focus a device by tapping its location on the map.
+
+<ThemedImage
+  alt="Focused screen"
+  sources={{
+    light: "/img/android/light/focused.png",
+    dark: "/img/android/dark/focused.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+Once the device is in focus, the actions appear on the right side of your screen:
+
+<div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+    <ThemedImage
+      alt="Navigation action"
+      sources={{
+        light: "/img/android/light/nav_action.png",
+        dark: "/img/android/dark/nav_action.png",
+      }}
+      style={{ maxWidth: "50px", borderRadius: "50%" }}
+    />
+    <span style={{ margin: 0 }}>
+        Opens the default navigation app with a route to the device.
+    </span>
+  </div>
+
+<div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+  <ThemedImage
+    alt="Ring action"
+    sources={{
+      light: "/img/android/light/ring_action.png",
+      dark: "/img/android/dark/ring_action.png",
+    }}
+    style={{ maxWidth: "50px", borderRadius: "50%" }}
+  />
+  <span style={{ margin: 0 }}>Makes the focused device ring.</span>
+</div>
+
+  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+    <ThemedImage
+      alt="Navigation action"
+      sources={{
+        light: "/img/android/light/nav_action.png",
+        dark: "/img/android/dark/nav_action.png",
+      }}
+      style={{ maxWidth: "50px", borderRadius: "50%" }}
+    />
+   <span style={{ margin: 0 }}>Locks the device.</span>
+  </div>
+</div>
+
+## Permissions
+
+Multiple permissions are required by the app to provide most of the features
+supported by Onloc. These permissions have been grouped by features so you can
+enable only those you need. Start by dragging the handlebar at the bottom of
+your screen to open the services and permissions sheet.
+
+<ThemedImage
+  alt="Permissions screen"
+  sources={{
+    light: "/img/android/light/permissions.png",
+    dark: "/img/android/dark/permissions.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+Here, you can grant permissions as you see fit.
+
+## Enabling Location Service
+
+### Selecting a Device
+
+In order to enable the location service which sends data periodically to your server,
+you first need to select a device to which your location data will be attached.
+Tap on "Select a device" at the top of your screen. The devices you created should
+appear, allowing you to select one.
+
+<ThemedImage
+  alt="Device selection screen"
+  sources={{
+    light: "/img/android/light/device_select.png",
+    dark: "/img/android/dark/device_select.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+### Update Frequency
+
+From the main screen, drag the handlebar at the bottom to open the services and
+permissions sheet. The interval picker lets you choose a frequency at which your
+location will be sent to the server.
+
+A shorter interval will provide you with more accurate data, but may drain your
+device's battery faster, while a longer interval will update less often,
+leaving you with less data, but costing less battery life.
+
+:::tip
+We recommend setting the interval to 15 minutes, giving you up-to-date data while
+costing little battery life.
+:::
+
+<ThemedImage
+  alt="Interval picker"
+  sources={{
+    light: "/img/android/light/interval_picker.png",
+    dark: "/img/android/dark/interval_picker.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+### Starting the Service
+
+To start the service, enable the location service switch.
+
+<ThemedImage
+  alt="Location service"
+  sources={{
+    light: "/img/android/light/location_service.png",
+    dark: "/img/android/dark/location_service.png",
+  }}
+  style={{ maxWidth: "400px" }}
+/>
+
+Congratulations! You are now using Onloc.
