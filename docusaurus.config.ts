@@ -71,6 +71,7 @@ const config: Config = {
     // Replace with your project's social card
     // image: "img/docusaurus-social-card.jpg",
     colorMode: {
+      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     navbar: {
@@ -110,11 +111,24 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "Community",
           items: [
             {
               label: "GitHub",
               href: "https://github.com/onloc-app/",
+            },
+            {
+              label: "Weblate",
+              href: "https://hosted.weblate.org/projects/onloc/",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Donate",
+              href: "/donate",
             },
           ],
         },
