@@ -1,0 +1,99 @@
+import ThemedImage from "@theme/ThemedImage";
+
+# Installation
+
+## Install HACS
+
+:::info
+This documentation assumes you have running instances of both Onloc and Home Assistant.
+If you have not installed Onloc, please follow the [official documentation](/docs/category/self-host/).
+:::
+
+To install Onloc's integration on your [Home Assistant](https://home-assistant.io/),
+you first need to install [HACS](https://hacs.xyz/), the Home Assistant Community
+Store, using the [official installation steps](https://hacs.xyz/docs/use/download/download/).
+
+## Install and Configure Onloc’s Integration
+
+First, go to the HACS tab in your Home Assistant sidebar.
+Once you're on the HACS page, search for "Onloc" in the search field.
+
+<ThemedImage
+  alt="HACS page"
+  sources={{
+    light: "/img/home-assistant/light/hacs_page.png",
+    dark: "/img/home-assistant/dark/hacs_page.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+Select the Onloc integration and click on download. A pop up will appear
+asking whether you want to download the latest version or choose a specific version.
+We recommend always using the latest version to prevent compatibility issues.
+
+<ThemedImage
+  alt="Onloc download page"
+  sources={{
+    light: "/img/home-assistant/light/onloc_download_page.png",
+    dark: "/img/home-assistant/dark/onloc_download_page.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+In the "Devices & services" page, click on "Add integration" and search for and
+select Onloc.
+
+<ThemedImage
+  alt="Add integration modal"
+  sources={{
+    light: "/img/home-assistant/light/add_integration_modal.png",
+    dark: "/img/home-assistant/dark/add_integration_modal.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+Home Assistant will present a pop-up, asking for your Onloc server URL
+and an API key.
+
+<ThemedImage
+  alt="Configuration modal"
+  sources={{
+    light: "/img/home-assistant/light/config_modal.png",
+    dark: "/img/home-assistant/dark/config_modal.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+An API key can be generated in your Onloc's front end in the settings page.
+You can of course name the key how you like.
+
+<ThemedImage
+  alt="Onloc API key"
+  sources={{
+    light: "/img/home-assistant/light/api_key.png",
+    dark: "/img/home-assistant/dark/api_key.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+Once both the URL and API key are entered, submit the form and voila!
+
+<ThemedImage
+  alt="Device list"
+  sources={{
+    light: "/img/home-assistant/light/device_list.png",
+    dark: "/img/home-assistant/dark/device_list.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+<ThemedImage
+  alt="Device statistics"
+  sources={{
+    light: "/img/home-assistant/light/device_stats.png",
+    dark: "/img/home-assistant/dark/device_stats.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+You now have your devices in Home Assistant. Happy automating!

@@ -43,8 +43,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/onloc-app/onloc-website/tree/main/",
         },
         blog: {
           showReadingTime: true,
@@ -107,6 +106,10 @@ const config: Config = {
             {
               label: "Self-Host",
               to: "/docs/category/self-host/",
+            },
+            {
+              label: "Home Assistant Integration",
+              to: "/docs/category/home-assistant/",
             },
           ],
         },
