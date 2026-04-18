@@ -108,7 +108,7 @@ const config: Config = {
               to: "/docs/category/self-host/",
             },
             {
-              label: "Home Assistant Integration",
+              label: "Home Assistant",
               to: "/docs/category/home-assistant/",
             },
           ],
