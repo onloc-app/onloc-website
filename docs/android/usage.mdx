@@ -47,54 +47,14 @@ Here, you can focus a device by tapping its location on the map.
   style={{ maxWidth: "400px" }}
 />
 
-Once the device is in focus, the actions appear on the right side of your screen:
-
-<div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-    <ThemedImage
-      alt="Navigation action"
-      sources={{
-        light: "/img/android/light/nav_action.png",
-        dark: "/img/android/dark/nav_action.png",
-      }}
-      style={{ maxWidth: "50px", borderRadius: "50%" }}
-    />
-    <span style={{ margin: 0 }}>
-        Opens the default navigation app with a route to the device.
-    </span>
-  </div>
-
-<div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-  <ThemedImage
-    alt="Ring action"
-    sources={{
-      light: "/img/android/light/ring_action.png",
-      dark: "/img/android/dark/ring_action.png",
-    }}
-    style={{ maxWidth: "50px", borderRadius: "50%" }}
-  />
-  <span style={{ margin: 0 }}>Makes the focused device ring.</span>
-</div>
-
-  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-    <ThemedImage
-      alt="Navigation action"
-      sources={{
-        light: "/img/android/light/nav_action.png",
-        dark: "/img/android/dark/nav_action.png",
-      }}
-      style={{ maxWidth: "50px", borderRadius: "50%" }}
-    />
-   <span style={{ margin: 0 }}>Locks the device.</span>
-  </div>
-</div>
+Once the device is in focus, actions will appear at the bottom of your screen.
 
 ## Permissions
 
 Multiple permissions are required by the app to provide most of the features
 supported by Onloc. These permissions have been grouped by features so you can
-enable only those you need. Start by dragging the handlebar at the bottom of
-your screen to open the services and permissions sheet.
+enable only those you need. Start by tapping on the settings icon at the top of
+your screen to open the services and permissions modal.
 
 <ThemedImage
   alt="Permissions screen"
@@ -127,13 +87,16 @@ appear, allowing you to select one.
 
 ### Update Frequency
 
-From the main screen, drag the handlebar at the bottom to open the services and
-permissions sheet. The interval picker lets you choose a frequency at which your
+From the main screen, tap on the settings (cog icon) button at the top to open the services and
+permissions modal. The interval picker lets you choose a frequency at which your
 location will be sent to the server.
 
 A shorter interval will provide you with more accurate data, but may drain your
 device's battery faster, while a longer interval will update less often,
 leaving you with less data, but costing less battery life.
+
+When real-time updates are used, your device will send its location back as soon as possible
+which provides the best accuracy while costing the most battery life.
 
 :::tip
 We recommend setting the interval to 15 minutes, giving you up-to-date data while
