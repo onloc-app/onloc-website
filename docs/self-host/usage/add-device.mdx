@@ -2,4 +2,86 @@
 sidebar_position: 1
 ---
 
+import ThemedImage from "@theme/ThemedImage";
+
 # Add a New Device
+
+First, select the `Devices` tab in the navigation bar.
+
+<ThemedImage
+  alt="Devices page"
+  sources={{
+    light: "/img/self-host/light/devices-page-empty.png",
+    dark: "/img/self-host/dark/devices-page-empty.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+All your devices will be displayed here for you to control and manage.
+To add a new device, click on the "plus" button next to `Devices`.
+
+<ThemedImage
+  alt="Devices page"
+  sources={{
+    light: "/img/self-host/light/add-device-button.png",
+    dark: "/img/self-host/dark/add-device-button.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+<br />
+
+<ThemedImage
+  alt="Devices page"
+  sources={{
+    light: "/img/self-host/light/add-device-modal-empty.png",
+    dark: "/img/self-host/dark/add-device-modal-empty.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+You can enter all of your device's information in this dialog.
+- Name (required): the name of your device.
+- Color: the color associated with the device to help distinguish it.
+- Type (required): the type determines which actions your device
+  will have enabled by default. These actions can be added or removed
+  later using the edit function.
+  - Mobile App: this is the option you need if you transmit location
+    data using the official Onloc Android app. This enables the
+    `ring`, `lock` and `flash` actions.
+  - Tracker: this does not enable any actions. It is useful for basic
+    trackers that only emit locations without receiving any command.
+- Icon: the icon that will represent this device.
+
+<ThemedImage
+  alt="Devices page"
+  sources={{
+    light: "/img/self-host/light/add-device-modal-full.png",
+    dark: "/img/self-host/dark/add-device-modal-full.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+Once every required field has been filled in, you can click the `Add` button
+to add the device.
+
+<ThemedImage
+  alt="Devices page"
+  sources={{
+    light: "/img/self-host/light/devices-page-full.png",
+    dark: "/img/self-host/dark/devices-page-full.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
+
+Each device has action buttons that lets you control it. Each device also
+has an `Edit` button that lets you modify details about it.
+
+<ThemedImage
+  alt="Devices page"
+  sources={{
+    light: "/img/self-host/light/edit-device-modal.png",
+    dark: "/img/self-host/dark/edit-device-modal.png",
+  }}
+  style={{ maxWidth: "100%" }}
+/>
