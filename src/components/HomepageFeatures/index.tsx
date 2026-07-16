@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
         }}
       >
         Let's you see your devices and send commands in real-time.
-        <div style={{ display: "flex", justifyContent: "center", gap: 8 }}>
+        <div style={{ display: "flex", justifyContent: "center", gap: 8, flexWrap: "wrap" }}>
           <a
             href="https://f-droid.org/packages/app.onloc.android/"
             target="_blank"
@@ -36,6 +36,19 @@ const FeatureList: FeatureItem[] = [
             target="_blank"
           >
             <img src="/img/github-badge.svg" height={60} />
+          </a>
+          <a
+            href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/onloc-app/onloc-android/"
+            target="_blank"
+          >
+            <img
+              src="/img/badge-obtainium.png"
+              alt="Get Onloc on Obtainium"
+              height={60}
+              style={{
+                objectFit: "contain",
+              }}
+            />
           </a>
         </div>
       </div>
