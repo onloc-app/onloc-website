@@ -1,4 +1,20 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 900;
+  font-style: normal;
+}
+
 :root {
+  --ifm-font-family-base: 'Outfit', 'Nunito', sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
   --ifm-color-primary: #5546a0;
   --ifm-color-primary-dark: #4c3e90;
   --ifm-color-primary-darker: #483b88;

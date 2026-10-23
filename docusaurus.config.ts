@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Onloc",
-  tagline: "Self-hosted device tracking and control",
+  tagline: "Self-Hosted Device Tracking & Control",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -39,6 +39,12 @@ const config: Config = {
     [
       "classic",
       {
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
         docs: {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
@@ -67,8 +73,19 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    // image: "img/docusaurus-social-card.jpg",
+    image: "img/social-card.png",
+    metadata: [
+      {
+        name: "description",
+        content:
+          "Self-hosted device tracking and control platform for Android and Home Assistant.",
+      },
+      {
+        name: "keywords",
+        content:
+          "self-hosted, device tracking, location tracking, android, home assistant, gps tracking",
+      },
+    ],
     colorMode: {
       disableSwitch: false,
       respectPrefersColorScheme: true,

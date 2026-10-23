@@ -1,8 +1,8 @@
 ---
 sidebar_position: 0
+title: Onloc
+description: Discover Onloc, a secure self-hosted device tracking, control and recovery platform for de-Googled Android devices and Home Assistant.
 ---
-
-# Onloc
 
 Onloc is a self-hosted device tracking, control and recovery software aimed at users who de-Googled their phones.
 Onloc provides features like ringing, locking and real-time location tracking for your devices. It supports our

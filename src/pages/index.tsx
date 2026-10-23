@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
 import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
@@ -25,7 +24,10 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`${siteConfig.title}`}>
+    <Layout
+      title="Self-Hosted Device Tracking & Control"
+      description="Secure, self-hosted device tracking, control and recovery platform for de-Googled Android devices and Home Assistant."
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
